@@ -105,3 +105,15 @@ s.length
 #### Stack:
 #### Trees
 #### Heaps
+#### Strings
+- Delete non-alphanumerics
+```ruby
+# Deletes everything that is not inside the caret-negated set
+"Ruby! 123".tr('^A-Za-z0-9', '') # "Ruby123"
+```
+- Uppercase `.upcase` & lowercase `downcase`
+
+#### Linked List
+- Check node IDs with `.object_id` as opposed to using the value
+- Tortoise and the hare can be used to check a cycle
+
