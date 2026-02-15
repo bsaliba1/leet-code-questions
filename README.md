@@ -24,29 +24,36 @@ A repo of all my solutions to leetcode questions and my notes on how I solved th
 
 ## Organization
     
-### Problems
-This is the directory contains subdirectories for all of the algorithm topics on leetcode. Within the subdirectories the problems are named according to their number on leetcode (ex. problem 99 => 99.py)
+### general
+This directory contains subdirectories for all of the algorithm topics on leetcode. Within the subdirectories the problems are named according to their number on leetcode (ex. problem 99 => 99.py)
 
-### Notes
+### blind_75
+This directory contains solutions to the Blind 75 list, organized by day.
+
+### notes
 This directory is my personal little space for keeping notes on important things I learned.
-- python_tips.md - Contains my notes on basic python syntax and functions as they are used for each topic
-- review_topics - Lists all of the algorithm topics and subtopics that I need to review
-
-
+- python_notes.md - Contains my notes on basic python syntax and functions as they are used for each topic
+- problems_to_review.md - Problems I need to revisit
+- review_topics.md - Lists all of the algorithm topics and subtopics that I need to review
 
 ## Structure Graphic
 
 ```
 . leet-code-questions
 +-- README
-+-- venv
-+-- Notes
-|   +-- python_tips.md
-+-- Problems
++-- general
 |   +-- topic_1
 |       +-- 1.py
 |   +-- topic_2
 |       +-- 2.py
 |       +-- 3.py
 |        ...
++-- blind_75
+|   +-- day_01
+|       +-- 1_problem_name.rb
+|        ...
++-- notes
+|   +-- python_notes.md
+|   +-- problems_to_review.md
+|   +-- review_topics.md
 ```

@@ -1,2 +1,3 @@
 # Problems to Review
-1. 399
+- 53 - prefix and postfix sum
+- 238 - dynamic programming (Kadane's)
