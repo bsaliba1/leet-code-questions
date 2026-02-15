@@ -79,6 +79,24 @@ bit_vector = 7
 remainder = bit_vector/2
 ```
 #### HashMap:
+- Initialize a hashmap with specific value if key does not exist
+```ruby
+my_map = Hash.new(10)
+my_map["a"] += 1
+my_map["a"]
+# 11
+my_map["b"]
+# 10
+```
+
+#### Sets
+- Initialize a set with values 
+```ruby
+s = Set.new([1,2,3,1])
+s.length
+# 3
+``` 
+
 #### Array:
 - init with zeroes: `arr = [0]*length #length is size you want`
 - **Map**
