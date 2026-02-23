@@ -117,3 +117,26 @@ s.length
 - Check node IDs with `.object_id` as opposed to using the value
 - Tortoise and the hare can be used to check a cycle
 
+#### Bits
+- Converting from integer to binary string and back 
+```ruby
+# Decimal to binary string
+42.to_s(2) # => "101010" (2+8+32)
+
+# Binary string to decimal
+"101010".to_i(2) # => 42
+
+# Binary literal (this is just a notation but under the hood it's just an integer like `12`
+num = 0b101010
+```
+
+- Bitwise operations
+    - & - AND
+    - | - OR
+    - ^ - XOR
+    - ~ - NOT - flips  all bits - should be paired with `& OxFF` for 8-bit and `& OxFFFFFFFF` for 32-bit
+    - << - Left shift
+    - >> - Right shift
+
+
+
