@@ -11,10 +11,10 @@ Working through the [Blind 75](https://neetcode.io/roadmap) question list with t
 
 ## Organization
 
-### blind_75
-Solutions to the Blind 75 list, organized by day.
+### Blind 75
+Solutions to the [Blind 75](https://leetcode.com/problem-list/oizxjoit/) list, organized by day.
 
-### notes
+### Notes
 Personal notes on important things learned.
 - `ruby_notes.md` — Ruby syntax and patterns per topic
 - `problems_to_review.md` — Problems to revisit
