@@ -16,7 +16,7 @@ A repo of my solutions to the Blind 75 LeetCode questions.
 | Day 01 | 5/5      |
 | Day 02 | 6/6      |
 | Day 03 | 6/6      |
-| Day 04 | 2/3      |
+| Day 04 | 3/3      |
 | Day 05 | 0/5      |
 | Day 06 | 0/5      |
 | Day 07 | 0/5      |
