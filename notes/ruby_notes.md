@@ -90,12 +90,20 @@ my_map["b"]
 ```
 
 #### Sets
+Has O(1) lookups
+
 - Initialize a set with values 
 ```ruby
 s = Set.new([1,2,3,1])
 s.length
 # 3
-``` 
+```
+
+- Array to set
+```ruby
+arr = [1,2,3]
+set = arr.to_set
+```
 
 #### Array:
 - init with zeroes: `arr = [0]*length #length is size you want`

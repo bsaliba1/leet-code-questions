@@ -1,4 +1,5 @@
 # Problems to Review
-- 53 - prefix and postfix sum
-- 238 - dynamic programming (Kadane's)
+- 238 - prefix and postfix sum
+- 53 - dynamic programming (Kadane's)
 - 11 - two pointer
+- 347 - bucket sort + counting sort
