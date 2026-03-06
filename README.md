@@ -5,9 +5,9 @@ A repo of my solutions to the Blind 75 LeetCode questions.
 
 | Category  | Count |
 |-----------|-------|
-| Blind 75  | 19    |
+| Blind 75  | 24    |
 | General   | 29    |
-| **Total** | **48** |
+| **Total** | **53** |
 
 ### Blind 75 — Progress by Day
 
@@ -17,7 +17,7 @@ A repo of my solutions to the Blind 75 LeetCode questions.
 | Day 02 | 6/6      |
 | Day 03 | 6/6      |
 | Day 04 | 3/3      |
-| Day 05 | 1/5      |
+| Day 05 | 5/5      |
 | Day 06 | 0/5      |
 | Day 07 | 0/5      |
 | Day 08 | 0/5      |
