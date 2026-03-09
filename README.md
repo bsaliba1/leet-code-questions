@@ -5,9 +5,9 @@ A repo of my solutions to the Blind 75 LeetCode questions.
 
 | Category  | Count |
 |-----------|-------|
-| Blind 75  | 27    |
+| Blind 75  | 28    |
 | General   | 29    |
-| **Total** | **56** |
+| **Total** | **57** |
 
 ### Blind 75 — Progress by Day
 
