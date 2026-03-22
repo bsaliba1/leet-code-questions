@@ -12,7 +12,8 @@
 - Compare target to middle element, recurse into left or right half
 - O(log n) time complexity
 - For rotated arrays: find the pivot (rotation point), unpivot, binary search, then map index back using modular arithmetic
-- Problems: 704 (Binary Search), 33 (Search in Rotated Sorted Array)
+- For finding minimum in rotated array: if mid < high, minimum is in left half (high = mid); otherwise in right half (low = mid + 1)
+- Problems: 704 (Binary Search), 33 (Search in Rotated Sorted Array), 153 (Find Minimum in Rotated Sorted Array)
 
 ## Bucket Sort
 - Get the count/frequency of each element
@@ -66,7 +67,9 @@
 - Sort intervals by start value
 - If next interval's start <= current interval's end, merge by taking max of both ends
 - Otherwise it's a separate interval
-- Problems: 56 (Merge Intervals)
+- For inserting: append new interval, sort, then merge normally
+- For non-overlapping (minimize removals): sort by end value; if intervals overlap, skip the one with the larger end
+- Problems: 56 (Merge Intervals), 57 (Insert Interval), 435 (Non-overlapping Intervals)
 
 ## Hash Map / Set
 - Use hash map for O(1) lookups of complements, counts, or indexes
@@ -82,7 +85,14 @@
 - Avoids division, handles zeros
 - Problems: 238 (Product of Array Except Self)
 
+## Matrix Traversal
+- To modify values based on a condition: first pass to collect which rows/columns need changing, second pass to apply the changes
+- Avoids modifying the matrix while reading it (which can corrupt the condition check)
+- Problems: 73 (Set Matrix Zeroes)
+
 ## Linked List Traversal
 - For merging: compare heads of both lists, pick smaller, advance that list
 - For reversing: save values by adding to front of array (unshift)
-- Problems: 21 (Merge Two Sorted Lists), 206 (Reverse Linked List)
+- For reordering (L0→Ln→L1→Ln-1...): collect nodes into array, then use two pointers (front/back) to weave them together
+- For removing nth from end: collect nodes into array, then update the (n+1)th-from-end node's next pointer
+- Problems: 21 (Merge Two Sorted Lists), 206 (Reverse Linked List), 143 (Reorder List), 19 (Remove Nth Node From End)
